@@ -21,10 +21,10 @@ if(isset($_GET['record'])){
 	  $colleges = $records[$_GET['record']]['INSTNM'];
 }
 
-\progchal2::showTitle($colleges);
+\progchal2::showTitle($uni);
 	
 new \progchal2\showLinks($records, $titles);
 
-\progchal2::showTable($records, $titles);
+\progchal2::showTable($records, $names);
  
 ?>
