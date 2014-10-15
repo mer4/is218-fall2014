@@ -23,7 +23,7 @@ if(isset($_GET['record'])){
 
 \progchal2::showTitle($uni);
 	
-new \progchal2\showLinks($records, $titles);
+new \progchal2\showLinks($records, $names);
 
 \progchal2::showTable($records, $names);
  
