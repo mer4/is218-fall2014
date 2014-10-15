@@ -2,7 +2,7 @@
 
 namespace progchal2;
 
-class showLinks
+class showLinks{
 		
 		public function __construct($records){
 			$i = -1;
