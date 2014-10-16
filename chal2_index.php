@@ -18,7 +18,7 @@ $names = $handle->headCheck($file2,TRUE);
 
 
 if(isset($_GET['record'])){
-	  $colleges = $records[$_GET['record']]['INSTNM'];
+	  $uni = $records[$_GET['record']]['INSTNM'];
 }
 
 \progchal2::showTitle($uni);
