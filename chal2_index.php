@@ -21,7 +21,7 @@ if(isset($_GET['record'])){
 	  $uni = $records[$_GET['record']]['INSTNM'];
 }
 
-\progchal2::showTitle($uni);
+\progchal2::showName($uni);
 	
 new \progchal2\showLinks($records, $names);
 
