@@ -22,7 +22,7 @@ class tableCreator{
 		echo'<br>';
 	}
 	
-	public static function showTitle($uni){
+	public static function showName($uni){
 		if(empty($_GET)){
 				echo '<h2 id="uni_name">Record</h1>';
 		} else{
