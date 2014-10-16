@@ -14,7 +14,7 @@ $handle = new \progchal2\csvOps();
 $handle2 = new \progchal2\csvOps();
 
 $records = $handle->headCheck($file1, TRUE);
-$titles = $handle->headCheck($file2,TRUE);
+$names = $handle->headCheck($file2,TRUE);
 
 
 if(isset($_GET['record'])){
